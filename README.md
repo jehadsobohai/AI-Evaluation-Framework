@@ -39,6 +39,22 @@ The AI Evaluation Framework provides a consistent approach for assessing the qua
 4. Explore example evaluations in the `examples/` folder.
 5. Review completed evaluations in the `sample-reports/` folder.
 
+## Validation Results
+
+The framework has been validated across all supported evaluation domains using representative test cases.
+
+| Domain | Status |
+|--------|--------|
+| Large Language Model (LLM) Evaluation | ✅ Validated |
+| Prompt Engineering Evaluation | ✅ Validated |
+| Translation Evaluation | ✅ Validated |
+| Medical AI Evaluation | ✅ Validated |
+| Arabic Language Evaluation | ✅ Validated |
+| Arabic Voice Evaluation | ✅ Validated |
+| AI Safety Evaluation | ✅ Validated |
+
+The validation confirmed consistent rubric selection, transparent scoring, evidence-based reasoning, and standardized reporting across all supported domains.
+
 ## Supported Evaluation Domains
 
 - Large Language Model (LLM) Evaluation
