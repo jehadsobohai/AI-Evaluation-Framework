@@ -31,7 +31,7 @@ The AI Evaluation Framework provides a consistent approach for assessing the qua
 - 🔍 Transparent scoring with clear justifications
 - ⚖️ Focus on quality, safety, and reliability
 
-  ## Quick Start
+## Quick Start
 
 1. Explore the evaluation methodology in the `methodology/` folder.
 2. Review the domain-specific rubrics in the `rubrics/` folder.
