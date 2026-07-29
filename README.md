@@ -10,16 +10,19 @@ A structured, evidence-based framework for evaluating Large Language Models (LLM
 ## Table of Contents
 
 - [Overview](#overview)
-- [Supported Domains](#supported-domains)
-- [Framework Components](#framework-components)
+- [Key Features](#key-features)
+- [Quick Start](#quick-start)
+- [Validation Results](#validation-results)
 - [Repository Structure](#repository-structure)
-- [Validation](#validation)
+- [Supported Evaluation Domains](#supported-evaluation-domains)
+- [Framework Components](#framework-components)
+- [Evaluation Workflow](#evaluation-workflow)
 - [Key Principles](#key-principles)
 - [License](#license)
 
 ## Overview
 
-The AI Evaluation Framework provides a consistent approach for assessing the quality, safety, and effectiveness of AI-generated outputs. It emphasizes transparent scoring, evidence-based reasoning, and reproducible evaluation reports.
+The AI Evaluation Framework is an evidence-based methodology for evaluating AI systems across multiple domains using standardized rubrics, transparent scoring, and reproducible evaluation reports.
 
 ## Key Features
 
@@ -97,16 +100,6 @@ AI-Evaluation-Framework/
 6. Compare strengths and weaknesses.
 7. Produce a structured evaluation report.
 8. State study limitations and future work.
-
-## Repository Structure
-
-```
-methodology/
-rubrics/
-templates/
-examples/
-sample-reports/
-```
 
 ## Key Principles
 
