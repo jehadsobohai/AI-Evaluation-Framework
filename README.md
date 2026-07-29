@@ -4,128 +4,74 @@
 
 <h1 align="center">AI Evaluation Framework</h1>
 
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Domains](https://img.shields.io/badge/Domains-7-blue.svg)
-![Language](https://img.shields.io/badge/Language-English%20%7C%20Arabic-orange.svg)
+<p align="center">
+  <strong>Evidence-Based • Transparent • Reproducible</strong>
+</p>
 
-A structured, evidence-based framework for evaluating Large Language Models (LLMs), prompt engineering, translation systems, medical AI, Arabic language, Arabic voice, and AI safety.
+<p align="center">
+  A comprehensive framework for evaluating AI systems across multiple domains using standardized methodologies, domain-specific rubrics, reproducible benchmarks, and transparent reporting.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
+  <img src="https://img.shields.io/badge/Domains-7-blue.svg" alt="Domains">
+  <img src="https://img.shields.io/badge/Language-English%20%7C%20Arabic-orange.svg" alt="Languages">
+</p>
+
+---
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Quick Start](#quick-start)
-- [Validation Results](#validation-results)
 - [Repository Structure](#repository-structure)
-- [Supported Evaluation Domains](#supported-evaluation-domains)
 - [Framework Components](#framework-components)
+- [Benchmark Library](#benchmark-library)
+- [Supported Evaluation Domains](#supported-evaluation-domains)
 - [Evaluation Workflow](#evaluation-workflow)
+- [Validation Results](#validation-results)
 - [Key Principles](#key-principles)
+- [Contributing](#contributing)
 - [License](#license)
+
+---
 
 ## Overview
 
-The AI Evaluation Framework is an evidence-based methodology for evaluating AI systems across multiple domains using standardized rubrics, transparent scoring, and reproducible evaluation reports.
+The **AI Evaluation Framework** is an open, evidence-based framework for evaluating AI systems across multiple domains.
+
+It provides standardized methodologies, transparent decision rules, domain-specific rubrics, reproducible benchmark structures, and comprehensive reporting templates to enable consistent and reliable AI evaluations.
+
+The framework is designed for researchers, developers, educators, and organizations seeking rigorous, transparent, and reproducible evaluation practices.
+
+---
 
 ## Key Features
 
-- 📊 Evidence-based AI evaluation methodology
-- 📋 Standardized scoring and reporting
-- 🌍 Support for seven evaluation domains
+- 📊 Evidence-based evaluation methodology
+- 📋 Standardized evaluation reports
 - 🧩 Domain-specific evaluation rubrics
-- 📄 Reproducible evaluation report templates
-- 🔍 Transparent scoring with clear justifications
-- ⚖️ Focus on quality, safety, and reliability
+- 📚 Reproducible benchmark library
+- 🏗️ Benchmark creation template
+- 📄 Reusable framework templates
+- 🔍 Transparent scoring with documented evidence
+- ⚖️ Clear decision rules and confidence ratings
+- 🌍 Support for multilingual and domain-specific evaluations
+
+---
 
 ## Quick Start
 
-1. Explore the evaluation methodology in the `methodology/` folder.
-2. Review the domain-specific rubrics in the `rubrics/` folder.
-3. Use the evaluation report template in the `templates/` folder.
-4. Explore example evaluations in the `examples/` folder.
-5. Review completed evaluations in the `sample-reports/` folder.
+1. Read the evaluation methodology in **`methodology/`**.
+2. Review the evaluation rubrics in **`rubrics/`**.
+3. Explore the framework documentation in **`docs/`**.
+4. Use the reusable templates in **`templates/`**.
+5. Create new benchmarks using **`benchmarks/benchmark-template/`**.
+6. Browse completed benchmarks in **`benchmarks/`**.
+7. Review sample reports in **`sample-reports/`**.
+
+---
 
 ## Validation Results
-
-The framework has been validated across all supported evaluation domains using representative test cases.
-
-| Domain | Status |
-|--------|--------|
-| Large Language Model (LLM) Evaluation | ✅ Validated |
-| Prompt Engineering Evaluation | ✅ Validated |
-| Translation Evaluation | ✅ Validated |
-| Medical AI Evaluation | ✅ Validated |
-| Arabic Language Evaluation | ✅ Validated |
-| Arabic Voice Evaluation | ✅ Validated |
-| AI Safety Evaluation | ✅ Validated |
-
-The validation confirmed consistent rubric selection, transparent scoring, evidence-based reasoning, and standardized reporting across all supported domains.
-
-## Repository Structure
-
-```
-AI-Evaluation-Framework/
-├── methodology/
-├── rubrics/
-├── templates/
-├── examples/
-├── sample-reports/
-├── README.md
-└── LICENSE
-```
-
-## Supported Evaluation Domains
-
-- Large Language Model (LLM) Evaluation
-- Prompt Engineering Evaluation
-- Translation Evaluation
-- Medical AI Evaluation
-- Arabic Language Evaluation
-- Arabic Voice Evaluation
-- AI Safety Evaluation
-
-## Framework Components
-
-- Standardized evaluation methodology
-- Domain-specific evaluation rubrics
-- Five-point scoring system
-- Reusable report templates
-- Evidence-based justification
-- Sample evaluation reports
-
-## Evaluation Workflow
-
-1. Identify the project type.
-2. Select the appropriate evaluation rubric.
-3. Choose only the relevant evaluation criteria.
-4. Evaluate each criterion independently.
-5. Support every score with explicit evidence.
-6. Compare strengths and weaknesses.
-7. Produce a structured evaluation report.
-8. State study limitations and future work.
-
-## Key Principles
-
-- Evidence-based evaluation
-- Transparent scoring
-- Objective analysis
-- Domain-specific assessment
-- Reproducible methodology
-- Clear documentation
-
-## Validation
-
-The framework has been validated across seven evaluation domains:
-
-- ✅ LLM Evaluation
-- ✅ Prompt Engineering Evaluation
-- ✅ Translation Evaluation
-- ✅ Medical AI Evaluation
-- ✅ Arabic Language Evaluation
-- ✅ Arabic Voice Evaluation
-- ✅ AI Safety Evaluation
-
-## License
-
-MIT License
