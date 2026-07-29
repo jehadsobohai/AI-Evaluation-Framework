@@ -1,5 +1,12 @@
 # AI Evaluation Framework
 
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Domains](https://img.shields.io/badge/Domains-7-blue.svg)
+![Language](https://img.shields.io/badge/Language-English%20%7C%20Arabic-orange.svg)
+
+A structured, evidence-based framework for evaluating Large Language Models (LLMs), prompt engineering, translation systems, medical AI, Arabic language, Arabic voice, and AI safety.
+
 A structured, evidence-based framework for evaluating AI systems across multiple domains using standardized methodologies and domain-specific rubrics.
 
 ## Overview
