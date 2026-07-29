@@ -7,7 +7,15 @@
 
 A structured, evidence-based framework for evaluating Large Language Models (LLMs), prompt engineering, translation systems, medical AI, Arabic language, Arabic voice, and AI safety.
 
-A structured, evidence-based framework for evaluating AI systems across multiple domains using standardized methodologies and domain-specific rubrics.
+## Table of Contents
+
+- [Overview](#overview)
+- [Supported Domains](#supported-domains)
+- [Framework Components](#framework-components)
+- [Repository Structure](#repository-structure)
+- [Validation](#validation)
+- [Key Principles](#key-principles)
+- [License](#license)
 
 ## Overview
 
