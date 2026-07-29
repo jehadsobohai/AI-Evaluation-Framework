@@ -21,21 +21,28 @@ A comprehensive open-source framework for evaluating AI systems using standardiz
 
 ---
 
-# Table of Contents
+## Table of Contents
 
-- Overview
-- Why AI Evaluation Framework?
-- Key Features
-- Repository Structure
-- Framework Components
-- Supported Evaluation Domains
-- Benchmark Library
-- Evaluation Workflow
-- Quick Start
-- Validation Results
-- Roadmap
-- Contributing
-- License
+- [Overview](#overview)
+- [Why AI Evaluation Framework?](#why-ai-evaluation-framework)
+- [Key Features](#key-features)
+- [Repository Structure](#repository-structure)
+- [Framework Components](#framework-components)
+  - [Methodology](#methodology)
+  - [Rubrics](#rubrics)
+  - [Templates](#templates)
+  - [Benchmarks](#benchmarks)
+  - [Documentation](#documentation)
+  - [Examples](#examples)
+  - [Sample Reports](#sample-reports)
+- [Supported Evaluation Domains](#supported-evaluation-domains)
+- [Benchmark Library](#benchmark-library)
+- [Evaluation Workflow](#evaluation-workflow)
+- [Quick Start](#quick-start)
+- [Validation Results](#validation-results)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
