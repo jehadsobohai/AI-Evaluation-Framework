@@ -55,6 +55,19 @@ The framework has been validated across all supported evaluation domains using r
 
 The validation confirmed consistent rubric selection, transparent scoring, evidence-based reasoning, and standardized reporting across all supported domains.
 
+## Repository Structure
+
+```
+AI-Evaluation-Framework/
+├── methodology/
+├── rubrics/
+├── templates/
+├── examples/
+├── sample-reports/
+├── README.md
+└── LICENSE
+```
+
 ## Supported Evaluation Domains
 
 - Large Language Model (LLM) Evaluation
