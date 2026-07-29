@@ -2,7 +2,7 @@
   <img src="docs/file_0000000039a881f489187c5d49963e50.png" alt="AI Evaluation Framework Banner" width="100%">
 </p>
 
-# AI Evaluation Framework
+<h1 align="center">AI Evaluation Framework</h1>
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
