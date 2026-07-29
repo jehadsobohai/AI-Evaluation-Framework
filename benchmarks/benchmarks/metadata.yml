@@ -1,0 +1,31 @@
+id: benchmark-xxx
+
+title: Benchmark Title
+
+version: 1.0
+
+status: draft
+
+date:
+
+objective:
+
+primary_domain:
+
+secondary_domains: []
+
+models: []
+
+evaluation_framework: AI Evaluation Framework
+
+framework_version: 1.0
+
+methodology: []
+
+confidence:
+
+preferred_model:
+
+decision_rule:
+
+tags: []
