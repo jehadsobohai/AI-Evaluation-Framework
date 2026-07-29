@@ -28,13 +28,6 @@ A comprehensive open-source framework for evaluating AI systems using standardiz
 - [Key Features](#key-features)
 - [Repository Structure](#repository-structure)
 - [Framework Components](#framework-components)
-  - [Methodology](#methodology)
-  - [Rubrics](#rubrics)
-  - [Templates](#templates)
-  - [Benchmarks](#benchmarks)
-  - [Documentation](#documentation)
-  - [Examples](#examples)
-  - [Sample Reports](#sample-reports)
 - [Supported Evaluation Domains](#supported-evaluation-domains)
 - [Benchmark Library](#benchmark-library)
 - [Evaluation Workflow](#evaluation-workflow)
@@ -46,21 +39,19 @@ A comprehensive open-source framework for evaluating AI systems using standardiz
 
 ---
 
-# Overview
+## Overview
 
-The **AI Evaluation Framework** is an open-source, evidence-based framework designed to evaluate AI systems consistently, transparently, and reproducibly across multiple domains.
+The **AI Evaluation Framework** is an open-source, evidence-based framework for evaluating AI systems consistently, transparently, and reproducibly across multiple domains.
 
-The framework combines standardized methodologies, domain-specific rubrics, benchmark structures, reusable templates, and comprehensive documentation to support rigorous evaluation of Large Language Models (LLMs) and other AI systems.
+It combines standardized methodologies, domain-specific rubrics, benchmark structures, reusable templates, and thorough documentation to support rigorous evaluation of Large Language Models (LLMs) and other AI systems.
 
-It is intended for researchers, developers, educators, organizations, and anyone seeking reliable AI evaluation practices.
+It's built for researchers, developers, educators, organizations, and anyone who needs reliable AI evaluation practices.
 
 ---
 
-# Why AI Evaluation Framework?
+## Why AI Evaluation Framework?
 
-Modern AI systems are increasingly capable, but evaluating their quality remains inconsistent.
-
-Many existing evaluations suffer from:
+Modern AI systems are increasingly capable, but evaluating their quality remains inconsistent. Many existing evaluations suffer from:
 
 - Subjective judgments
 - Inconsistent scoring
@@ -69,11 +60,11 @@ Many existing evaluations suffer from:
 - Poor documentation
 - Lack of standardized reporting
 
-The AI Evaluation Framework addresses these challenges by providing a structured methodology that emphasizes transparency, evidence, and repeatability.
+The AI Evaluation Framework addresses these gaps with a structured methodology that emphasizes transparency, evidence, and repeatability.
 
 ---
 
-# Key Features
+## Key Features
 
 - Evidence-based evaluation methodology
 - Standardized evaluation workflow
@@ -88,7 +79,7 @@ The AI Evaluation Framework addresses these challenges by providing a structured
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 AI-Evaluation-Framework/
@@ -109,61 +100,33 @@ AI-Evaluation-Framework/
 
 ---
 
-# Framework Components
+## Framework Components
 
-## Methodology
+**Methodology** — Defines the evaluation process, workflow, scoring methodology, and decision rules.
 
-Defines the evaluation process, workflow, scoring methodology, and decision rules.
+**Rubrics** — Standardized evaluation rubrics for each supported domain.
 
----
+**Templates** — Reusable templates for evaluation reports and other framework documents.
 
-## Rubrics
-
-Contains standardized evaluation rubrics for each supported domain.
-
----
-
-## Templates
-
-Provides reusable templates for evaluation reports and framework documents.
-
----
-
-## Benchmarks
-
-Contains standardized benchmark packages.
-
-Each benchmark includes:
+**Benchmarks** — Standardized benchmark packages. Each benchmark includes:
 
 - README
-- metadata.yml
+- `metadata.yml`
 - prompt
 - responses
 - evaluation report
 
-A benchmark template is also included for creating new benchmarks.
+A benchmark template is included for creating new benchmarks.
+
+**Documentation** — Project documentation, specifications, and supporting materials.
+
+**Examples** — Illustrative examples demonstrating how to apply the framework.
+
+**Sample Reports** — Completed evaluation reports generated using the framework.
 
 ---
 
-## Documentation
-
-Project documentation, specifications, and supporting materials.
-
----
-
-## Examples
-
-Illustrative examples demonstrating how to apply the framework.
-
----
-
-## Sample Reports
-
-Completed evaluation reports generated using the framework.
-
----
-
-# Supported Evaluation Domains
+## Supported Evaluation Domains
 
 The framework currently supports evaluation across seven domains:
 
@@ -175,47 +138,45 @@ The framework currently supports evaluation across seven domains:
 - Arabic Voice
 - AI Safety
 
-The framework is designed to support additional domains in future releases.
+Additional domains are planned for future releases.
 
 ---
 
-# Benchmark Library
+## Benchmark Library
 
-The benchmark library contains reproducible evaluation benchmarks developed using the AI Evaluation Framework.
+The benchmark library contains reproducible evaluation benchmarks developed using the AI Evaluation Framework. Each benchmark follows a standardized structure to ensure consistency, transparency, and reproducibility.
 
-Each benchmark follows a standardized structure, ensuring consistency, transparency, and reproducibility.
-
-New benchmarks should be created using the **benchmark-template** provided in the repository.
+New benchmarks should be created from the **benchmark-template** provided in the repository.
 
 ---
 
-# Evaluation Workflow
+## Evaluation Workflow
 
 ```text
 Prompt
-      │
-      ▼
+  │
+  ▼
 Model Responses
-      │
-      ▼
+  │
+  ▼
 Instruction Verification
-      │
-      ▼
+  │
+  ▼
 Evidence Collection
-      │
-      ▼
+  │
+  ▼
 Criterion Evaluation
-      │
-      ▼
+  │
+  ▼
 Decision Rules
-      │
-      ▼
+  │
+  ▼
 Final Evaluation Report
 ```
 
 ---
 
-# Quick Start
+## Quick Start
 
 1. Read the evaluation methodology in `methodology/`.
 2. Review the documentation in `docs/`.
@@ -227,11 +188,9 @@ Final Evaluation Report
 
 ---
 
-# Validation Results
+## Validation Results
 
-The framework has been validated through comparative evaluations across multiple AI models and domains.
-
-Validation demonstrates that the framework supports:
+The framework has been validated through comparative evaluations across multiple AI models and domains, demonstrating support for:
 
 - Consistent evaluation methodology
 - Transparent decision making
@@ -243,9 +202,7 @@ Additional validation benchmarks will be published as the project evolves.
 
 ---
 
-# Roadmap
-
-Future development includes:
+## Roadmap
 
 - Additional evaluation domains
 - Expanded benchmark library
@@ -257,16 +214,13 @@ Future development includes:
 
 ---
 
-# Contributing
+## Contributing
 
-Contributions are welcome.
-
-Please read **CONTRIBUTING.md** before submitting issues, benchmarks, documentation, or pull requests.
+Contributions are welcome. Please read **CONTRIBUTING.md** before submitting issues, benchmarks, documentation, or pull requests.
 
 ---
 
-# License
+## License
 
-This project is released under the **MIT License**.
+This project is released under the **MIT License**. See **LICENSE** for details.
 
-See **LICENSE** for details.
