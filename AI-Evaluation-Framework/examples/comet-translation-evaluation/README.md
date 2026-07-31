@@ -38,8 +38,24 @@ The example reproduces a complete translation evaluation workflow, including dat
 
 ## Related Portfolio Case Study
 
-For the complete evaluation report, see:
+This example is based on the following complete case study from the **LLM Evaluation Portfolio**:
 
-**Evaluation 002 – COMET-Based Evaluation of English–Arabic LLM Translation Quality**
+- **Evaluation 002 – COMET-Based Evaluation of English–Arabic LLM Translation Quality**
 
-*(evaluation_001_llm_translation_hitl_case_study.md)*
+  https://github.com/jehadsobohai/LLM-Evaluation-Portfolio/blob/main/prompts/evaluation_002_comet_translation_evaluation_case_study.md
+
+The portfolio article provides the complete evaluation report, including:
+
+- Project overview
+- Source text
+- Reference translation
+- Model responses
+- COMET evaluation methodology
+- Installation and execution
+- COMET results
+- Comparison with expert human evaluation
+- Discussion
+- Limitations
+- Conclusion
+
+*(./prompts/evaluation_002_comet_translation_evaluation_case_study.md)*
