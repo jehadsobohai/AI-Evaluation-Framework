@@ -1,0 +1,17 @@
+COMET Evaluation Results
+
+Model                           Score
+--------------------------------------
+ChatGPT (GPT-5.5)               0.9165
+Gemini 3.6 Flash                0.9146
+Claude Sonnet 5 Thinking        0.9097
+
+Ranking
+
+1. ChatGPT
+2. Gemini
+3. Claude
+
+Observation
+
+All three models achieved COMET scores above 0.90, indicating excellent semantic similarity to the human reference translation. The score differences are small, suggesting comparable translation quality across all evaluated models.
