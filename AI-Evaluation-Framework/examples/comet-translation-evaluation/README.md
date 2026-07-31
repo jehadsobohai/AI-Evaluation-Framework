@@ -36,11 +36,26 @@ The example reproduces a complete translation evaluation workflow, including dat
 
 ---
 
+## Repository Contents
+
+```
+comet-translation-evaluation/
+├── README.md
+├── source.txt
+├── reference.txt
+├── chatgpt.txt
+├── gemini.txt
+├── claude.txt
+└── results/
+```
+
+---
+
 ## Related Portfolio Case Study
 
-This example is based on the following complete case study from the **LLM Evaluation Portfolio**:
+This example accompanies the following case study from the **LLM Evaluation Portfolio**:
 
-- **[Evaluation 002 – COMET-Based Evaluation of English–Arabic LLM Translation Quality](https://github.com/jehadsobohai/LLM-Evaluation-Portfolio/blob/main/prompts/evaluation_002_comet_translation_evaluation_case_study.md)**
+**[Evaluation 002 – COMET-Based Evaluation of English–Arabic LLM Translation Quality](https://github.com/jehadsobohai/LLM-Evaluation-Portfolio/blob/main/prompts/evaluation_002_comet_translation_evaluation_case_study.md)**
 
 The portfolio article provides the complete evaluation report, including:
 
@@ -51,8 +66,7 @@ The portfolio article provides the complete evaluation report, including:
 - COMET evaluation methodology
 - Installation and execution
 - COMET results
-- Comparison with expert human evaluation
+- Human evaluation comparison
 - Discussion
 - Limitations
 - Conclusion
-
