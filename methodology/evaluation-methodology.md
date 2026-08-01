@@ -1,38 +1,51 @@
 # Evaluation Methodology
 
-## Purpose
+## Planning
 
-This document describes the standard methodology used by the AI Evaluation Framework to evaluate AI systems consistently, transparently, and objectively across multiple domains.
+Before conducting an evaluation, the evaluator should:
 
-## Core Principles
+- Define the evaluation objective.
+- Define the evaluation scope.
+- Select the evaluation methodology.
+- Select the evaluation criteria.
+- Prepare evaluation assets.
+- Document project metadata as defined in the Evaluation Project Standard (EPS).
 
-- Evidence-based evaluation
-- Objective assessment
-- Transparent scoring
-- Domain-specific evaluation
-- Reproducible methodology
-- Clear documentation
+---
 
-## Evaluation Workflow
+## Evaluation Execution
 
-1. Identify the project type.
-2. Select the appropriate evaluation rubric.
-3. Determine the relevant evaluation criteria.
-4. Evaluate each criterion independently.
-5. Assign a score supported by evidence.
-6. Compare strengths and weaknesses.
-7. Produce a structured evaluation report.
-8. State study limitations.
-9. Suggest future work where appropriate.
+The evaluator should:
 
-## General Rules
+- Execute the evaluation task.
+- Record all model outputs.
+- Preserve prompts and system settings.
+- Document evaluation conditions.
+- Collect supporting evidence.
 
-- Evaluate only the information provided.
-- Do not infer unsupported facts.
-- Justify every score with explicit evidence.
-- Keep conclusions specific to the evaluated task.
-- Avoid generalising beyond the available evidence.
+---
 
-## Scoring
+## Analysis
 
-The framework uses a standard five-point scoring system. See `scoring-guide.md` for details.
+The evaluator should:
+
+- Review collected evidence.
+- Apply the selected evaluation criteria.
+- Compare model performance.
+- Identify strengths and weaknesses.
+- Document findings.
+
+---
+
+## Reporting
+
+Evaluation reports should be prepared in accordance with the **Evaluation Project Standard (EPS)**.
+
+The report should summarize:
+
+- Objectives
+- Methodology
+- Findings
+- Evidence
+- Limitations
+- Conclusions
