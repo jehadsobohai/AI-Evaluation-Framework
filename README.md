@@ -162,4 +162,141 @@ Describes evaluation methodologies, workflows, scoring guidance, and evaluation 
 
 ## 📋 Rubrics
 
-Provides reusable evaluation criteria for different AI domains
+Provides reusable evaluation criteria for different AI domains and evaluation tasks.
+
+---
+
+## 📊 Benchmarks
+
+Contains benchmark templates and standardized benchmark packages for reproducible AI evaluation.
+
+---
+
+## 📄 Templates
+
+Provides reusable templates for evaluation projects, benchmark development, project metadata, and evaluation reports.
+
+---
+
+## 💡 Examples
+
+Demonstrates practical implementation of framework methodologies using representative evaluation examples.
+
+---
+
+## 📝 Sample Reports
+
+References completed evaluation reports developed using the AI Evaluation Framework.
+
+---
+
+## 📖 Documentation
+
+Contains supporting technical documentation, implementation guidance, and framework resources.
+
+---
+
+# Supported Evaluation Domains
+
+The framework currently supports evaluation across multiple domains, including:
+
+- Large Language Models (LLMs)
+- Prompt Engineering
+- Translation Evaluation
+- Medical AI
+- Arabic Language Evaluation
+- Conversational AI
+- AI Safety
+
+The framework is designed to expand to additional AI systems, evaluation methodologies, and application domains over time.
+
+---
+
+# Evaluation Workflow
+
+```text
+Planning
+    │
+    ▼
+Project Design
+    │
+    ▼
+Evaluation Execution
+    │
+    ▼
+Evidence Collection
+    │
+    ▼
+Analysis
+    │
+    ▼
+Reporting
+    │
+    ▼
+Standards Compliance
+```
+
+---
+
+# Quick Start
+
+1. Read the **Evaluation Project Standard (EPS)**.
+2. Review the evaluation methodologies.
+3. Explore the available evaluation rubrics.
+4. Use the reusable templates.
+5. Develop or adapt benchmark packages.
+6. Review the practical examples.
+7. Apply the framework to your own AI evaluation projects.
+
+---
+
+# Companion Repository
+
+The **AI Evaluation Framework** provides reusable standards, methodologies, templates, rubrics, and benchmark guidance.
+
+Practical implementation of the framework is demonstrated in the companion repository:
+
+## LLM Evaluation Portfolio
+
+https://github.com/jehadsobohai/LLM-Evaluation-Portfolio
+
+The portfolio contains real-world AI evaluation projects applying the framework across multiple domains, including:
+
+- Human-in-the-Loop (HITL) Evaluation
+- COMET-Based Translation Evaluation
+- Modern Standard Arabic (MSA) Evaluation
+- Egyptian Arabic Evaluation
+- Prompt Engineering
+- Comparative Model Analysis
+
+---
+
+# Roadmap
+
+Future development includes:
+
+- Additional evaluation standards
+- Expanded evaluation methodologies
+- Additional evaluation rubrics
+- Expanded benchmark library
+- Additional evaluation domains
+- Automated evaluation tooling
+- Framework visualization
+- Community benchmark contributions
+- Continuous framework improvement
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+Please read **CONTRIBUTING.md** before submitting issues, documentation improvements, standards, methodologies, rubrics, benchmarks, templates, or pull requests.
+
+---
+
+# License
+
+Copyright © 2026 Jehad Soboh
+
+This project is licensed under the **MIT License**. See the **LICENSE** file for details.
