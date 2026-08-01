@@ -1,19 +1,47 @@
-# Documentation
+# Framework Documentation
 
 This directory contains supporting documentation for the **AI Evaluation Framework**.
 
-The documentation complements the framework's standards, methodologies, templates, and examples by providing additional reference material, implementation guidance, diagrams, and technical documentation.
+The documentation provides additional reference material, implementation guidance, architectural information, and supporting resources that complement the framework's standards, methodologies, templates, benchmarks, and examples.
 
-For the latest framework standards and practical evaluation projects, see:
+---
 
-## Related Repositories
+## Purpose
 
-### AI Evaluation Framework
+The documentation is intended to:
 
-https://github.com/jehadsobohai/AI-Evaluation-Framework
+- Explain the framework architecture.
+- Support framework implementation.
+- Provide technical reference material.
+- Document framework evolution.
+- Complement the official standards and methodologies.
 
-### LLM Evaluation Portfolio
+---
+
+## Related Components
+
+The AI Evaluation Framework consists of the following major components:
+
+- **Standards** — Define what evaluation projects should contain.
+- **Methodologies** — Describe how evaluations should be conducted.
+- **Rubrics** — Define structured evaluation criteria.
+- **Templates** — Provide reusable project and report templates.
+- **Benchmarks** — Provide standardized evaluation packages.
+- **Examples** — Demonstrate practical implementation.
+- **Sample Reports** — Showcase completed evaluation reports.
+
+---
+
+## Companion Repository
+
+Practical implementations of the framework are available in the **LLM Evaluation Portfolio**:
 
 https://github.com/jehadsobohai/LLM-Evaluation-Portfolio
 
-The LLM Evaluation Portfolio demonstrates the practical application of the AI Evaluation Framework through real-world evaluation case studies.
+The portfolio demonstrates how the framework is applied to real-world AI evaluation projects across multiple domains.
+
+---
+
+## License
+
+This documentation is part of the **AI Evaluation Framework** and is licensed under the MIT License.
