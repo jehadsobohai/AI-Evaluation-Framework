@@ -6,7 +6,12 @@ The template defines a standardized structure for creating reproducible, transpa
 
 All benchmark packages developed using the framework should follow this structure to ensure consistency across evaluation projects.
 
+> **Copyright © 2026 Jehad Soboh**
+>
+> This benchmark template is part of the **AI Evaluation Framework** and is licensed under the **MIT License**.
+
 ---
+
 
 ## Related Documents
 
@@ -14,6 +19,22 @@ All benchmark packages developed using the framework should follow this structur
 - Evaluation Methodology
 - Scoring Guide
 - Evaluation Report Template
+
+---
+
+## Template Contents
+
+The benchmark template consists of the following components:
+
+| File | Purpose |
+|------|---------|
+| `README.md` | Benchmark documentation |
+| `metadata.yml` | Benchmark metadata |
+| `prompt.md` | Evaluation prompt or task |
+| `responses.md` | Model responses |
+| `evaluation.md` | Evaluation report |
+| `assets/` | Supporting benchmark resources |
+| `results/` | Evaluation outputs and metrics |
 
 ---
 
