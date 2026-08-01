@@ -371,4 +371,6 @@ Compliance with EPS demonstrates adherence to standardized documentation, transp
 | **1.0** | August 2026 | Initial release of the Evaluation Project Standard (EPS). Defines the standard project structure, metadata, evaluation workflow, evaluation criteria, scoring methodology, evidence requirements, reporting standard, and compliance checklist for AI evaluation projects. |
 
 ---
-> **Copyright © 2026 Jehad Soboh**
+> *| **Author** | Jehad Soboh |
+| **Copyright** | © 2026 Jehad Soboh |
+| **License** | MIT License |
