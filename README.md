@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-An open-source framework for developing standardized, transparent, reproducible, and evidence-based AI evaluation methodologies, project standards, benchmarks, rubrics, and reporting practices.
+An open-source framework for developing standardized, transparent, reproducible, and evidence-based AI evaluation standards, methodologies, rubrics, benchmarks, templates, and reporting practices.
 </p>
 
 <p align="center">
@@ -21,10 +21,11 @@ An open-source framework for developing standardized, transparent, reproducible,
 
 ---
 
-## Table of Contents
+# Table of Contents
 
 - [Overview](#overview)
 - [Core Principles](#core-principles)
+- [Framework Architecture](#framework-architecture)
 - [Framework Standards](#framework-standards)
 - [Key Features](#key-features)
 - [Repository Structure](#repository-structure)
@@ -32,6 +33,7 @@ An open-source framework for developing standardized, transparent, reproducible,
 - [Supported Evaluation Domains](#supported-evaluation-domains)
 - [Evaluation Workflow](#evaluation-workflow)
 - [Quick Start](#quick-start)
+- [Companion Repository](#companion-repository)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -40,11 +42,11 @@ An open-source framework for developing standardized, transparent, reproducible,
 
 # Overview
 
-The **AI Evaluation Framework** is an open-source framework that provides standardized methodologies for evaluating Artificial Intelligence systems.
+The **AI Evaluation Framework** is an open-source framework for developing standardized methodologies for evaluating Artificial Intelligence systems.
 
-The framework is designed to improve the quality, transparency, reproducibility, and consistency of AI evaluation projects by providing reusable standards, methodologies, documentation, templates, rubrics, and benchmark structures.
+The framework provides reusable standards, methodologies, rubrics, templates, benchmark structures, and documentation that support transparent, reproducible, and evidence-based AI evaluation across multiple domains.
 
-Rather than prescribing a single evaluation methodology, the framework provides reusable building blocks that can be adapted across different AI systems, evaluation tasks, domains, and benchmarks.
+Rather than prescribing a single evaluation methodology, the framework provides modular building blocks that can be adapted to different AI systems, evaluation tasks, benchmarks, and application domains.
 
 ---
 
@@ -61,7 +63,24 @@ The framework is built upon the following principles:
 - Flexibility
 - Continuous Improvement
 
-These principles guide every methodology, benchmark, rubric, and evaluation project developed using the framework.
+These principles guide every standard, methodology, rubric, benchmark, and evaluation project developed using the framework.
+
+---
+
+# Framework Architecture
+
+The AI Evaluation Framework is organized into modular components, each serving a distinct role within the AI evaluation lifecycle.
+
+| Component | Purpose |
+|-----------|---------|
+| **Standards** | Define standardized project structure, documentation, reporting, and compliance requirements. |
+| **Methodology** | Describe how AI evaluations should be planned, conducted, analyzed, and reported. |
+| **Rubrics** | Provide reusable evaluation criteria and scoring guidance. |
+| **Benchmarks** | Define standardized benchmark packages and benchmark templates. |
+| **Templates** | Provide reusable project, benchmark, metadata, and reporting templates. |
+| **Examples** | Demonstrate practical implementation of framework methodologies. |
+| **Sample Reports** | Reference completed evaluation reports developed using the framework. |
+| **Documentation** | Provide supporting technical documentation and implementation guidance. |
 
 ---
 
@@ -74,10 +93,12 @@ Current standards include:
 - 📘 Evaluation Project Standard (EPS)
 - Standard Project Metadata
 - Standard Evaluation Workflow
+- Standard Evaluation Criteria
+- Standard Scoring Methodology
 - Standard Reporting Practices
 - Compliance Checklist
 
-These standards promote consistency across evaluation projects while remaining flexible enough to support different AI domains and evaluation methodologies.
+These standards establish a consistent foundation while remaining flexible enough to support different AI domains and evaluation methodologies.
 
 ---
 
@@ -85,12 +106,12 @@ These standards promote consistency across evaluation projects while remaining f
 
 - 📘 Evaluation Project Standard (EPS)
 - 📊 Evidence-based evaluation methodology
-- 📋 Standardized evaluation workflow
-- 🧩 Domain-specific evaluation rubrics
+- 📋 Standardized evaluation workflows
+- 🧩 Reusable evaluation rubrics
 - 📄 Standardized documentation
 - 📚 Benchmark development guidance
 - 🏗️ Reusable templates
-- 🔍 Evidence-based scoring
+- 🔍 Transparent evidence-based scoring
 - 🌍 Multilingual evaluation support
 - 🔄 Extensible framework architecture
 
@@ -101,18 +122,21 @@ These standards promote consistency across evaluation projects while remaining f
 ```text
 AI-Evaluation-Framework/
 │
-├── benchmarks/
-├── docs/
-├── examples/
+├── standards/
+│
 ├── methodology/
-│   ├── evaluation-project-standard.md
-│   ├── evaluation-methodology.md
-│   ├── hitl-evaluation.md
-│   └── comet-evaluation.md
 │
 ├── rubrics/
-├── sample-reports/
+│
+├── benchmarks/
+│
 ├── templates/
+│
+├── examples/
+│
+├── sample-reports/
+│
+├── docs/
 │
 ├── README.md
 ├── CONTRIBUTING.md
@@ -124,114 +148,18 @@ AI-Evaluation-Framework/
 
 # Framework Components
 
-## Methodology
+## 📘 Standards
 
-Defines the standardized methodologies, evaluation workflows, and project standards used throughout the framework.
-
-## Standards
-
-Defines reusable standards for project documentation, metadata, reporting, scoring, and compliance.
-
-## Rubrics
-
-Provides structured evaluation rubrics for supported AI domains.
-
-## Templates
-
-Provides reusable templates for evaluation projects, reports, and benchmark development.
-
-## Benchmarks
-
-Contains benchmark packages and benchmark templates for reproducible AI evaluation.
-
-## Examples
-
-Demonstrates practical implementation of framework methodologies.
-
-## Sample Reports
-
-Contains complete evaluation reports developed using the framework.
+Defines project standards, documentation requirements, reporting practices, metadata, and compliance guidance.
 
 ---
 
-# Supported Evaluation Domains
+## 📚 Methodology
 
-The framework currently supports:
-
-- Large Language Models (LLMs)
-- Prompt Engineering
-- Translation Evaluation
-- Medical AI
-- Arabic Language Evaluation
-- Conversational AI
-- AI Safety
-
-The framework is designed to expand to additional AI evaluation domains over time.
+Describes evaluation methodologies, workflows, scoring guidance, and evaluation best practices.
 
 ---
 
-# Evaluation Workflow
+## 📋 Rubrics
 
-```text
-Planning
-    │
-    ▼
-Project Setup
-    │
-    ▼
-Evaluation Execution
-    │
-    ▼
-Evidence Collection
-    │
-    ▼
-Analysis
-    │
-    ▼
-Reporting
-    │
-    ▼
-Compliance Review
-```
-
----
-
-# Quick Start
-
-1. Read the **Evaluation Project Standard (EPS)**.
-2. Review the evaluation methodology.
-3. Explore the available rubrics.
-4. Use the project templates.
-5. Develop or adapt benchmarks.
-6. Review sample evaluation reports.
-7. Apply the framework to your own evaluation projects.
-
----
-
-# Roadmap
-
-Future development includes:
-
-- Additional evaluation standards
-- Expanded benchmark library
-- Additional evaluation domains
-- Automated evaluation tooling
-- Framework visualizations
-- Community benchmark contributions
-- Continuous framework improvement
-
----
-
-# Contributing
-
-Contributions are welcome.
-
-Please read **CONTRIBUTING.md** before submitting issues, documentation improvements, methodologies, benchmarks, or pull requests.
-
----
-
-# License
-
-Copyright © 2026 Jehad Soboh
-
-This project is licensed under the **MIT License**. See the **LICENSE** file for details.
+Provides reusable evaluation criteria for different AI domains
