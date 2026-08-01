@@ -1,42 +1,16 @@
-# Benchmark XXX – Benchmark Title
+# Benchmark Template
 
-## Overview
+This directory provides the official benchmark template for the **AI Evaluation Framework**.
 
-Briefly describe the benchmark.
+The template defines a standardized structure for creating reproducible, transparent, and evidence-based AI evaluation benchmarks.
 
----
-
-## Objective
-
-Describe what is being evaluated.
+All benchmark packages developed using the framework should follow this structure to ensure consistency across evaluation projects.
 
 ---
 
-## Files
+## Related Documents
 
-| File | Description |
-|------|-------------|
-| prompt.md | Original benchmark prompt |
-| responses.md | Model responses |
-| evaluation.md | Complete evaluation report |
-| metadata.yml | Benchmark metadata |
-
----
-
-## Domains
-
-Primary Domain:
-
-Secondary Domain(s):
-
----
-
-## Status
-
-Draft / Completed
-
----
-
-## Framework Version
-
-AI Evaluation Framework vX.X
+- Evaluation Project Standard (EPS)
+- Evaluation Methodology
+- Scoring Guide
+- Evaluation Report Template
