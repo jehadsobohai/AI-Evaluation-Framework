@@ -34,4 +34,4 @@ This document provides brief examples of how the AI Evaluation Framework can be 
 
 ---
 
-For complete reports, see the **sample-reports** directory.
+Reference implementations are available in the companion LLM Evaluation Portfolio.
