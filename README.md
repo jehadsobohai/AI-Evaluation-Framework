@@ -5,17 +5,17 @@
 <h1 align="center">AI Evaluation Framework</h1>
 
 <p align="center">
-<strong>Evidence-Based • Transparent • Reproducible • Extensible</strong>
+<strong>Standardized • Evidence-Based • Transparent • Reproducible • Extensible</strong>
 </p>
 
 <p align="center">
-A comprehensive open-source framework for evaluating AI systems through standardized methodologies, domain-specific rubrics, reproducible benchmarks, and transparent reporting.
+An open-source framework for developing standardized, transparent, reproducible, and evidence-based AI evaluation methodologies, project standards, benchmarks, rubrics, and reporting practices.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Domains-7-blue.svg" alt="Domains">
+  <img src="https://img.shields.io/badge/Framework-v1.0-blue.svg" alt="Framework">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20Arabic-orange.svg" alt="Languages">
 </p>
 
@@ -24,64 +24,79 @@ A comprehensive open-source framework for evaluating AI systems through standard
 ## Table of Contents
 
 - [Overview](#overview)
-- [Why AI Evaluation Framework?](#why-ai-evaluation-framework)
+- [Core Principles](#core-principles)
+- [Framework Standards](#framework-standards)
 - [Key Features](#key-features)
 - [Repository Structure](#repository-structure)
 - [Framework Components](#framework-components)
 - [Supported Evaluation Domains](#supported-evaluation-domains)
-- [Benchmark Library](#benchmark-library)
 - [Evaluation Workflow](#evaluation-workflow)
 - [Quick Start](#quick-start)
-- [Validation Results](#validation-results)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
 
 ---
 
-## Overview
+# Overview
 
-The **AI Evaluation Framework** is an open-source, evidence-based framework for evaluating AI systems consistently, transparently, and reproducibly across multiple domains.
+The **AI Evaluation Framework** is an open-source framework that provides standardized methodologies for evaluating Artificial Intelligence systems.
 
-The framework combines standardized methodologies, domain-specific evaluation rubrics, reusable templates, benchmark structures, and comprehensive documentation to support rigorous evaluation of Large Language Models (LLMs) and other AI systems.
+The framework is designed to improve the quality, transparency, reproducibility, and consistency of AI evaluation projects by providing reusable standards, methodologies, documentation, templates, rubrics, and benchmark structures.
 
-It is designed for researchers, developers, educators, organizations, and anyone seeking reliable and reproducible AI evaluation practices.
-
----
-
-## Why AI Evaluation Framework?
-
-As AI systems become increasingly capable, evaluating their performance consistently and objectively has become more challenging.
-
-Many existing evaluation approaches suffer from:
-
-- Subjective judgments
-- Inconsistent scoring
-- Missing evaluation criteria
-- Limited reproducibility
-- Poor documentation
-- Lack of transparent reporting
-
-The AI Evaluation Framework addresses these challenges through a structured methodology built on evidence, standardized rubrics, transparent decision rules, and reproducible evaluation workflows.
+Rather than prescribing a single evaluation methodology, the framework provides reusable building blocks that can be adapted across different AI systems, evaluation tasks, domains, and benchmarks.
 
 ---
 
-## Key Features
+# Core Principles
 
+The framework is built upon the following principles:
+
+- Standardization
+- Transparency
+- Reproducibility
+- Evidence-Based Assessment
+- Objectivity
+- Comparability
+- Flexibility
+- Continuous Improvement
+
+These principles guide every methodology, benchmark, rubric, and evaluation project developed using the framework.
+
+---
+
+# Framework Standards
+
+The framework includes standardized documentation that defines how AI evaluation projects should be planned, documented, conducted, and reported.
+
+Current standards include:
+
+- 📘 Evaluation Project Standard (EPS)
+- Standard Project Metadata
+- Standard Evaluation Workflow
+- Standard Reporting Practices
+- Compliance Checklist
+
+These standards promote consistency across evaluation projects while remaining flexible enough to support different AI domains and evaluation methodologies.
+
+---
+
+# Key Features
+
+- 📘 Evaluation Project Standard (EPS)
 - 📊 Evidence-based evaluation methodology
 - 📋 Standardized evaluation workflow
 - 🧩 Domain-specific evaluation rubrics
-- 📄 Standardized evaluation report templates
-- 📚 Reproducible benchmark library
-- 🏗️ Benchmark creation template
-- 🔍 Transparent scoring with evidence-based justifications
-- ⚖️ Confidence ratings and decision rules
-- 🌍 Support for multilingual and domain-specific evaluation
-- 🔄 Extensible architecture for future evaluation domains
+- 📄 Standardized documentation
+- 📚 Benchmark development guidance
+- 🏗️ Reusable templates
+- 🔍 Evidence-based scoring
+- 🌍 Multilingual evaluation support
+- 🔄 Extensible framework architecture
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 AI-Evaluation-Framework/
@@ -90,6 +105,11 @@ AI-Evaluation-Framework/
 ├── docs/
 ├── examples/
 ├── methodology/
+│   ├── evaluation-project-standard.md
+│   ├── evaluation-methodology.md
+│   ├── hitl-evaluation.md
+│   └── comet-evaluation.md
+│
 ├── rubrics/
 ├── sample-reports/
 ├── templates/
@@ -102,150 +122,116 @@ AI-Evaluation-Framework/
 
 ---
 
-## Framework Components
+# Framework Components
 
-### Methodology
+## Methodology
 
-Defines the evaluation methodology, workflow, scoring process, and decision rules.
+Defines the standardized methodologies, evaluation workflows, and project standards used throughout the framework.
 
-### Rubrics
+## Standards
 
-Contains standardized evaluation rubrics for each supported domain.
+Defines reusable standards for project documentation, metadata, reporting, scoring, and compliance.
 
-### Templates
+## Rubrics
 
-Provides reusable templates for evaluation reports and other framework documents.
+Provides structured evaluation rubrics for supported AI domains.
 
-### Benchmarks
+## Templates
 
-Contains standardized benchmark packages developed using the AI Evaluation Framework.
+Provides reusable templates for evaluation projects, reports, and benchmark development.
 
-Each benchmark includes:
+## Benchmarks
 
-- `README.md`
-- `metadata.yml`
-- `prompt.md`
-- `responses.md`
-- `evaluation.md`
+Contains benchmark packages and benchmark templates for reproducible AI evaluation.
 
-The repository also includes a **benchmark-template** to simplify the creation of new benchmarks.
+## Examples
 
-### Documentation
+Demonstrates practical implementation of framework methodologies.
 
-Contains framework specifications, documentation, and supporting materials.
+## Sample Reports
 
-### Examples
-
-Provides practical examples demonstrating how to apply the framework.
-
-### Sample Reports
-
-Contains completed evaluation reports produced using the framework.
+Contains complete evaluation reports developed using the framework.
 
 ---
 
-## Supported Evaluation Domains
+# Supported Evaluation Domains
 
-The framework currently supports evaluation across the following domains:
+The framework currently supports:
 
 - Large Language Models (LLMs)
 - Prompt Engineering
-- Translation Systems
+- Translation Evaluation
 - Medical AI
-- Arabic Language
-- Arabic Voice
+- Arabic Language Evaluation
+- Conversational AI
 - AI Safety
 
-The framework is designed to support additional evaluation domains in future releases.
+The framework is designed to expand to additional AI evaluation domains over time.
 
 ---
 
-## Benchmark Library
-
-The benchmark library contains standardized, reproducible benchmarks developed using the AI Evaluation Framework.
-
-Each benchmark follows a consistent structure to ensure transparency, repeatability, and comparability across evaluations.
-
-New benchmarks should be created using the **benchmark-template** provided in the repository.
-
----
-
-## Evaluation Workflow
+# Evaluation Workflow
 
 ```text
-Prompt
-   │
-   ▼
-Model Responses
-   │
-   ▼
-Instruction Verification
-   │
-   ▼
+Planning
+    │
+    ▼
+Project Setup
+    │
+    ▼
+Evaluation Execution
+    │
+    ▼
 Evidence Collection
-   │
-   ▼
-Criterion Evaluation
-   │
-   ▼
-Decision Rules
-   │
-   ▼
-Final Evaluation Report
+    │
+    ▼
+Analysis
+    │
+    ▼
+Reporting
+    │
+    ▼
+Compliance Review
 ```
 
 ---
 
-## Quick Start
+# Quick Start
 
-1. Review the evaluation methodology in `methodology/`.
-2. Read the framework documentation in `docs/`.
-3. Explore the domain-specific rubrics in `rubrics/`.
-4. Use the reusable templates in `templates/`.
-5. Create new benchmarks from `benchmarks/benchmark-template/`.
-6. Browse existing benchmarks in `benchmarks/`.
-7. Review completed reports in `sample-reports/`.
-
----
-
-## Validation Results
-
-The framework has been validated through comparative evaluations across multiple AI models and domains.
-
-Current validation demonstrates support for:
-
-- Consistent evaluation methodology
-- Transparent decision-making
-- Evidence-based scoring
-- Reproducible evaluation reports
-- Standardized benchmark development
-
-The benchmark library will continue to expand as additional evaluations are published.
+1. Read the **Evaluation Project Standard (EPS)**.
+2. Review the evaluation methodology.
+3. Explore the available rubrics.
+4. Use the project templates.
+5. Develop or adapt benchmarks.
+6. Review sample evaluation reports.
+7. Apply the framework to your own evaluation projects.
 
 ---
 
-## Roadmap
+# Roadmap
 
 Future development includes:
 
-- Additional evaluation domains
+- Additional evaluation standards
 - Expanded benchmark library
-- Automated evaluation tools
-- Visualization dashboards
+- Additional evaluation domains
+- Automated evaluation tooling
+- Framework visualizations
 - Community benchmark contributions
-- Benchmark leaderboards
-- Continuous framework refinement
+- Continuous framework improvement
 
 ---
 
-## Contributing
+# Contributing
 
 Contributions are welcome.
 
-Please read **CONTRIBUTING.md** before submitting issues, documentation improvements, benchmarks, or pull requests.
+Please read **CONTRIBUTING.md** before submitting issues, documentation improvements, methodologies, benchmarks, or pull requests.
 
 ---
 
-## License
+# License
+
+Copyright © 2026 Jehad Soboh
 
 This project is licensed under the **MIT License**. See the **LICENSE** file for details.
