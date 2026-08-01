@@ -70,3 +70,11 @@ The portfolio article provides the complete evaluation report, including:
 - Discussion
 - Limitations
 - Conclusion
+
+---
+
+# License
+
+Copyright © 2026 Jehad Soboh
+
+This project is licensed under the **MIT License**. See the **LICENSE** file for details.
