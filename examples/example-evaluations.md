@@ -34,4 +34,4 @@ This document provides brief examples of how the AI Evaluation Framework can be 
 
 ---
 
-Reference implementations are available in the companion LLM Evaluation Portfolio.
+Reference implementations are available in the companion **LLM Evaluation Portfolio(https://github.com/jehadsobohai/LLM-Evaluation-Portfolio)**
