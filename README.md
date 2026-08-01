@@ -18,7 +18,6 @@ An open-source framework for developing standardized, transparent, reproducible,
   <img src="https://img.shields.io/badge/Framework-v1.0-blue.svg" alt="Framework">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20Arabic-orange.svg" alt="Languages">
 </p>
-<h1 align="center">Copyright © 2026 Jehad Soboh<
 
 ---
 
