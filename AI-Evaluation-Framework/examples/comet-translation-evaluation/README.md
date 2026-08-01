@@ -55,8 +55,7 @@ comet-translation-evaluation/
 
 This example accompanies the following case study from the **LLM Evaluation Portfolio**:
 
-**Evaluation 004:** **[COMET-Based English–Arabic Translation Evaluation](./prompts/evaluation_004_comet_english_arabic_translation.md)**
-
+**[LLM Evaluation Project Standard (LEPS) v1.0](./standards/evaluation_project_standard.md)**
 The portfolio article provides the complete evaluation report, including:
 
 - Project overview
