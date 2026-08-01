@@ -1,16 +1,41 @@
 # Examples
 
-This directory contains practical examples demonstrating how to apply the AI Evaluation Framework to real-world AI evaluation projects.
+This directory contains practical examples demonstrating how to apply the **AI Evaluation Framework** to real-world AI evaluation tasks.
 
-Examples illustrate the implementation of framework standards, methodologies, workflows, and reporting practices.
+Examples are intended to help users understand framework methodologies, benchmark structures, evaluation workflows, and reporting practices.
 
-Example projects may include:
+Examples may include:
 
 - LLM Evaluation
 - Translation Evaluation
-- Prompt Evaluation
-- Medical AI Evaluation
-- AI Safety Evaluation
-- Benchmark Evaluation
+- COMET Evaluation
+- Prompt Engineering
+- Medical AI
+- AI Safety
 
-Examples are intended for learning, reference, and adaptation to new evaluation scenarios.
+---
+
+## Available Examples
+
+### COMET Translation Evaluation
+
+Demonstrates an end-to-end English–Arabic translation evaluation workflow using the COMET neural evaluation metric.
+
+Topics include:
+
+- Preparing evaluation assets
+- Running COMET
+- Collecting evaluation outputs
+- Interpreting results
+
+---
+
+## Related Resources
+
+- Evaluation Project Standard (EPS)
+- Evaluation Methodology
+- Benchmarks
+- Templates
+- LLM Evaluation Portfolio
+
+https://github.com/jehadsobohai/LLM-Evaluation-Portfolio
