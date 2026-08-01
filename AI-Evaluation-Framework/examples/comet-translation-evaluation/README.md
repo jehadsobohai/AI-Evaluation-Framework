@@ -55,7 +55,7 @@ comet-translation-evaluation/
 
 This example accompanies the following case study from the **LLM Evaluation Portfolio**:
 
-**[Evaluation 002 – COMET-Based Evaluation of English–Arabic LLM Translation Quality](https://github.com/jehadsobohai/LLM-Evaluation-Portfolio/blob/main/prompts/evaluation_002_comet_translation_evaluation_case_study.md)**
+**Evaluation 004:** **[COMET-Based English–Arabic Translation Evaluation](./prompts/evaluation_004_comet_english_arabic_translation.md)**
 
 The portfolio article provides the complete evaluation report, including:
 
